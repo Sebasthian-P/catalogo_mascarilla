@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <title>Arte y Cultura</title>
+</head>
+<body>
+    <div class="mensaje">
+        <h3>Esta pagina contiene elementos pesados, puede que note lentitud en su ordenador</h3>
+    </div>
+    <div class="rectangle">
+        <h2>Sebastian Pompa</h2>
+        <h2>Sebastian Pompa</h2>
+    </div>
+    <div id="container">
+        <label class="tapa">
+            <input type="checkbox" id="check">
+            <div class="square"></div>
+        </label>
+        <label class="tapa_">
+            <input type="checkbox" id="check_">
+            <div class="square"></div>
+        </label>
+        <div id="pages">
+            <div class="item">
+                <img src="/images/presentacion.svg" class="borde" alt="">
+            </div>
+            <div class="item">
+                <img src="/images/1.svg" alt="">
+            </div>
+            <div class="item">
+                <img src="/images/1.svg" class="right" alt="">
+            </div>
+            <div class="item">
+                <img src="/images/2.svg" alt="">
+            </div>
+            <div class="item">
+                <img src="/images/2.svg" class="right" alt="">
+            </div>
+            <div class="item">
+                <img src="/images/otros.svg" alt="">
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="turn.js"></script>
+    <script>
+        $('#pages').turn({gradients: true, acceleration: true});
+    </script>
+</body>
+</html>
