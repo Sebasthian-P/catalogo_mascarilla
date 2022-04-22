@@ -8,7 +8,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(../images/macOS-Big-Sur.jpg);
+    background-image: url(./images/macOS-Monterey.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ body:hover #container {
 }
 
 .tapa .square {
-    background-image: url(../images/portada.svg);
+    background-image: url(./images/portada.svg);
     width: 560px;
     height: 721px;
     position: absolute;
@@ -139,7 +139,7 @@ body:hover #container {
 }
 
 .tapa #check:checked ~ .square {
-    background-image: url(../images/creditos.svg);
+    background-image: url(./images/creditos.svg);
     background-position: right;
     transform: rotateY(180deg);
     z-index: -1;
@@ -166,7 +166,7 @@ body:hover #container {
 }
 
 .tapa_ .square {
-    background-image: url(../images/creditos_.svg);
+    background-image: url(./images/creditos_.svg);
     width: 560px;
     height: 720px;
     position: absolute;
@@ -182,7 +182,7 @@ body:hover #container {
 }
 
 .tapa_ #check_:checked ~ .square {
-    background-image: url(../images/contraportada.svg);
+    background-image: url(./images/contraportada.svg);
     transform: rotateY(0deg);
     z-index: 4000;
 }
