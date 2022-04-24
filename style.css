@@ -5,7 +5,7 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-body {
+.bg {
     width: 100vw;
     height: 100vh;
     background-image: url(./images/macOS-Monterey.jpg);
@@ -16,8 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
     user-select: none;
+    overflow: hidden;
 }
 
 .mensaje {
@@ -26,7 +26,7 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
     position: absolute;
     top: 200px;
-    left: 200px;
+    left: 180px;
     color: #f00;
     overflow: hidden;
     padding: 10px;
@@ -102,8 +102,10 @@ body:hover #container {
     object-position: right;
 }
 
-.tapa {
-}
+
+
+
+
 
 .square {
     background-repeat: no-repeat;
@@ -156,15 +158,6 @@ body:hover #container {
 
 
 
-
-
-
-
-
-
-.tapa_ {
-}
-
 .tapa_ .square {
     background-image: url(./images/creditos_.svg);
     width: 560px;
@@ -185,4 +178,21 @@ body:hover #container {
     background-image: url(./images/contraportada.svg);
     transform: rotateY(0deg);
     z-index: 4000;
+}
+
+.bg_ {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, .7);
+    backdrop-filter: blur(20px) saturate(180%);
+    color: #f00;
+    text-align: center;
+    padding: 20px;
+    user-select: none;
+    display: none;
 }

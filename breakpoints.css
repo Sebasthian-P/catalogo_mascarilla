@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1200px) {
+    .bg_ {
+        display: flex;
+    }
+
+    body {
+        pointer-events: none;
+    }
+}
