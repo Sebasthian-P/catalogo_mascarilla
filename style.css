@@ -32,6 +32,7 @@
     padding: 10px;
     border-radius: 10px;
     backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
 .rectangle {
@@ -39,6 +40,7 @@
     height: 100px;
     background-color: rgba(0, 0, 0, .7);
     backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
     border-radius: 10px;
     position: absolute;
     transition: transform .7s;
@@ -190,6 +192,7 @@ body:hover #container {
     top: 0;
     background-color: rgba(255, 255, 255, .7);
     backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
     color: #f00;
     text-align: center;
     padding: 20px;
