@@ -1,4 +1,15 @@
 @media only screen and (max-width: 1200px) {
+
+    #container,
+    .rectangle,
+    .mensaje {
+        display: none;
+    }
+
+    .bg {
+        background-image: url(./images/screenshot.png);
+    }
+
     .bg_ {
         display: flex;
     }
