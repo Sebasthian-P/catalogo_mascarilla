@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="breakpoints.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
     <title>Arte y Cultura</title>
 </head>
 <body>
@@ -14,24 +15,26 @@
         <div class="mensaje">
             <h3>Esta pagina contiene elementos pesados, puede que note lentitud en su ordenador</h3>
         </div>
+
+        <div class="close-tapa btn">
+            <h5>Cerrar</h5>
+        </div>
+        <div class="close-tapa-two btn">
+            <h5>Cerrar</h5>
+        </div>
+
         <div class="rectangle">
             <h2>Sebastian Pompa</h2>
             <h2>Sebastian Pompa</h2>
         </div>
         <div id="container">
-            <label class="tapa">
-                <input type="checkbox" id="check">
-                <div class="square"></div>
-            </label>
-            <label class="tapa_">
-                <input type="checkbox" id="check_">
-                <div class="square"></div>
-            </label>
+            <div class="tapa"></div>
+            <div class="tapa_"></div>
             <div id="pages">
-                <div class="item">
+                <div class="item paper">
                     <img src="images/presentacion.svg" class="borde" alt="">
                 </div>
-                <div class="item">
+                <div class="item paper-two">
                     <img src="images/1.svg" alt="">
                 </div>
                 <div class="item">
@@ -40,10 +43,10 @@
                 <div class="item">
                     <img src="images/2.svg" alt="">
                 </div>
-                <div class="item">
+                <div class="item paper-three">
                     <img src="images/2.svg" class="right" alt="">
                 </div>
-                <div class="item">
+                <div class="item paper-four">
                     <img src="images/otros.svg" alt="">
                 </div>
             </div>
@@ -51,7 +54,9 @@
     </div>
     
     <div class="bg_">
-        <h3>Disponible solo para ordenador</h3>
+        <h3>El tamaño de su pantalla no es la adecuada</h3>
+        <h4>Requisitos: 1200px de anchura a más y 510px de altura a más</h4>
+        <h2>SE REQUIERE TENER AMBOS REQUISITOS</h2>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
